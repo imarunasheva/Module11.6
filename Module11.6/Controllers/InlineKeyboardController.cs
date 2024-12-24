@@ -44,7 +44,6 @@ namespace Module11._6.Controllers
                             $"Введите любую строку.{Environment.NewLine}" +
                             $"{Environment.NewLine} Можно поменять выбор в главном меню.", cancellationToken: ct, parseMode: ParseMode.Html);
 
-                        //(ValueButtons.valueButtons).Add("button1", "count");
                         ValueButtons.command = "count";
 
                         break;
@@ -56,8 +55,6 @@ namespace Module11._6.Controllers
                             $"<b> Вы выбрали подсчет суммы чисел.</b>{Environment.NewLine}" +
                             $"Введите целые числа через пробел.{Environment.NewLine}" +
                             $"{Environment.NewLine} Можно поменять выбор в главном меню.", cancellationToken: ct, parseMode: ParseMode.Html);
-
-                        //(ValueButtons.valueButtons).Add("button2", "sum");
 
                         ValueButtons.command = "sum";
 
